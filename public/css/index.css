@@ -45,7 +45,7 @@ a {
 /*Primera parte: Foto de perfil y barra de navegacion.*/
 #box1 {
     text-align: center;
-    background-image: url("/public/img/Fondo1.jpg");
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo1.jpg");
     padding-bottom: 9.5%;
 }
 
@@ -87,7 +87,7 @@ nav div {
 
 /*Segunda parte: Informacion de quien soy.*/
 #box2 {
-    background-image: url("/public/img/Fondo2.jpg");
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo2.jpg");
     padding-bottom: 4%;
 }
 
@@ -149,7 +149,7 @@ h2 {
 
 /*Tercera parte: Habilidades que poseo.*/
 #box3 {
-    background-image: url("/public/img/Fondo3.jpg");
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo3.jpg");
     padding-bottom: 0.02%;
 }
 
@@ -185,7 +185,7 @@ h2 {
 
 /*Cuarta parte: Cual fue mi educacion.*/
 #box4 {
-    background-image: url("/public/img/Fondo4.jpg");
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo4.jpg");
     padding-bottom: 9.5%;
 }
 
@@ -217,7 +217,7 @@ h2 {
 
 /*Quinta parte: Forma de contactarme.*/
 #box5 {
-    background-image: url("/public/img/Fondo5.jpg");
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo5.jpg");
     padding-bottom: 8.4%;
 }
 
