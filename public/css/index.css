@@ -1,0 +1,280 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    user-select: none;
+}
+
+#container {
+    min-width: 400px;
+}
+
+/*Barra de navegacion.*/
+#navigationButtons {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+}
+
+.button {
+    background: rgba(18, 18, 18, 1);
+    border: 1px solid rgba(150, 150, 150, 1);
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+/*Contenido principal*/
+#box1, #box2, #box3, #box4, #box5 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    color: white;
+    font: normal 1.0em Constantia, Helvetica, sans-serif;
+}
+
+/*Primera parte: Foto de perfil y barra de navegacion.*/
+#box1 {
+    text-align: center;
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo1.jpg");
+    padding-bottom: 9.5%;
+}
+
+#margin {
+    height: 50px;
+}
+
+#photo {
+    border: 2px solid rgba(150, 150, 150, 1);
+    border-radius: 150px;
+    box-shadow: 5px 5px 10px rgba(18, 18, 18, 1);
+    height: 25%;
+    max-height: 300px;
+    width: 25%;
+    max-width: 300px;
+}
+
+nav {
+    margin: 0 25%;
+    margin-top: 7.5%;
+    overflow: hidden;
+}
+
+nav div:hover, figure:hover, #contactsBox a:hover, #twoBox:hover, .button:hover {
+    opacity: 0.7;
+}
+
+nav div {
+    float: left;
+    background: rgb(65, 65, 65);
+    border: 1px solid rgb(85, 85, 85);
+    padding: 5px;
+    box-sizing: border-box;
+    width: 25%;
+    min-width: fit-content;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+/*Segunda parte: Informacion de quien soy.*/
+#box2 {
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo2.jpg");
+    padding-bottom: 4%;
+}
+
+.titleH2 {
+    background: rgb(65, 65, 65);
+    border-top: 1px solid rgba(150, 150, 150, 1);
+    border-bottom: 1px solid rgba(150, 150, 150, 1);
+    padding: 5px 0;
+    box-sizing: border-box;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.part1, .part3 {
+    position: absolute;
+    background: rgb(65, 65, 65);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: 2px;
+    width: 35px;
+    height: 35px;
+}
+
+.part1 {
+    border-bottom: 1px solid rgba(150, 150, 150, 1);
+    border-left: 1px solid rgba(150, 150, 150, 1);
+    left: 23.7%;
+}
+
+.part3 {
+    border-top: 1px solid rgba(150, 150, 150, 1);
+    border-right: 1px solid rgba(150, 150, 150, 1);
+    right: 23.7%;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 3px 9px;
+    box-sizing: border-box;
+}
+
+#iamBox {
+    background: rgba(0, 0, 0, 0.4);
+    margin: 2% 16%;
+    border: 1px solid rgba(150, 150, 150, 1);
+    border-radius: 25px;
+    padding: 25px 25px 50px 25px;
+    box-sizing: border-box;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: Didot;
+    text-align: justify;
+}
+
+/*Tercera parte: Habilidades que poseo.*/
+#box3 {
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo3.jpg");
+    padding-bottom: 0.02%;
+}
+
+#skillsBox {
+    margin: 0 4% 5% 4%;
+    width: 92%;
+    text-align: center;
+}
+
+#skillsBox figure {
+    display: inline-table;
+    background: rgba(225, 225, 225, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 20%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    margin-top: 4%;
+    width: 15%;
+    min-width: 100px;
+}
+
+#skillsBox figure img {
+    width: auto;
+    margin: 10% 5px 0 5px;
+    height: 170px;
+}
+
+#skillsBox figure figcaption {
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/*Cuarta parte: Cual fue mi educacion.*/
+#box4 {
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo4.jpg");
+    padding-bottom: 9.5%;
+}
+
+#oneBox {
+    margin: 5% auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+#twoBox {
+    background: white;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgba(18, 18, 18, 1);
+}
+
+#twoBox img {
+    margin-top: 10%;
+    height: 75%;
+}
+
+#educationBox h3 {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+/*Quinta parte: Forma de contactarme.*/
+#box5 {
+    background-image: url("/Ing-Vegas-Luis/public/img/Fondo5.jpg");
+    padding-bottom: 8.4%;
+}
+
+#contactsBox {
+    background: rgb(65, 65, 65, 0.4);
+    border: 1px solid rgba(150, 150, 150, 1);
+    border-radius: 10px;
+    margin: 12% 30%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(18, 18, 18, 1);
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#contactsBox a {
+    font-weight: bold;
+}
+
+footer {
+    background: rgba(18, 18, 18, 1);
+    border: 1px solid rgba(150, 150, 150, 1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font: normal 1.2em Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:800px) {
+    #photo {
+        height: 35%;
+        width: 35%;
+    }
+
+    #iamBox {
+        font-size: 1.2em;
+    }
+
+    #skillsBox figure img {
+        width: auto;
+        height: 120px;
+    }
+
+    #contactsBox {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #photo {
+        height: 50%;
+        width: 50%;
+    }
+
+    #skillsBox figure img {
+        width: auto;
+        height: 100px;
+    }
+}
